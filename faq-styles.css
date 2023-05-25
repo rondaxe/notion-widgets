@@ -2,11 +2,7 @@ h1 {
  color: red; 
 }
 
-.notion-header {
-    display: none!important;
-}
-
-.notion-collection-list {
-  color: red;
+.notion-root {
+ color: red;
 }
 
