@@ -1,0 +1,123 @@
+.notion-toggle.bg-brown {
+  display: none !important;
+}
+
+
+/* Change default background color 
+:root {
+	--color-bg-default: #eeeeee!important;
+}*/
+
+/* Remove Notion Header (Page Title, Cover and Icon)*/
+/*
+*/
+.notion-header {
+    display: none!important;
+}
+
+.super-content {
+    padding-top: 10px!important; /* You can change this number */ 
+}
+
+/* Turn bold text link blocks into a button */
+ .notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong {
+  padding: var(--cta-padding)!important;
+  border: var(--cta-border)!important;
+  box-shadow: var(--cta-shadow)!important;
+  border-radius: var(--cta-border-radius)!important;
+  opacity: 1!important;
+  font-weight: 400!important;
+  display: inline-flex!important;
+  justify-content: center!important;
+  transition: all .2s ease!important;
+  /* You can change the button colors here */
+  background: #2971B7!important;
+  color: #ffffff!important;
+ }
+  /*Button hover*/
+ .notion-root .notion-text p.notion-text__content span.notion-semantic-string span strong a.notion-link:hover, .notion-text p.notion-text__content span.notion-semantic-string span a.notion-link strong:hover{
+  opacity: .7!important;
+ }
+
+
+
+/* make codeblock span page width */
+#block-b69000db27254cbb8f6f67938a99e804 {
+  width: calc(100vw - 20px);
+  margin-left: calc(-50vw + 50% + 10px);
+  background-color: #feeddb;
+}
+
+/* Turn a single line callout block into a button (Entire block is clickable) */
+.notion-callout { 
+  position: relative!important;
+}
+
+.notion-callout .notion-callout__content .notion-semantic-string span .notion-link {
+  position: absolute!important;
+  height: 100%!important;
+  width: 100%!important;
+  top: 0!important;
+  left: 0!important;
+  right: 0!important;
+  bottom: 0!important;
+  padding: 15px!important;
+  padding-left: 50px!important;
+  border: none!important;
+}
+
+
+#block-44261a55fedb41c38cf7085546d448e7 {
+		border-radius: 20px !important;
+		width: 24%;
+		position: relative !important;
+		border: none !important;
+    box-shadow: 2px 2px 12px #dadada, -1px -1px 12px #ffffff !important;
+		background: #ffeeff !important;
+	}
+
+#block-a08a5911b919410b9dc8c6f2942e1a9a {
+		border-radius: 20px !important;
+		width: 240px;
+		height: 54px;
+		position: relative !important;
+		border: none !important;
+    box-shadow: 2px 2px 12px #dadada, -1px -1px 12px #ffffff !important;
+		background: #ffeeff !important;
+	}
+
+/*
+	.notion-callout-block a {
+		letter-spacing: -0.5px !important;
+		padding: 0 0 2px 66px !important;
+		align-items: center !important;
+		position: absolute !important;
+		display: flex !important;
+		border: none !important;
+		bottom: 0 !important;
+		right: 0 !important;
+		left: 0 !important;
+		top: 0 !important;
+	}
+*/
+
+/*  make Card description wrap.
+.notion-collection-card.gallery .notion-property__title .notion-semantic-string  {
+  overflow: visible !important;
+  white-space: normal !important;
+}
+ 
+.notion-collection-card__content .notion-property__select {
+  overflow: visible !important;
+  white-space: normal !important;
+  text-overflow: initial !important;
+  display: inline !important;
+}
+*/
+.notion-collection-card__content .notion-property__text .notion-semantic-string {
+  overflow: visible !important;
+  white-space: normal !important;
+  text-overflow: initial !important;
+  display: inline !important;
+}
+  
