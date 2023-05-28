@@ -1,0 +1,10 @@
+
+/*
+style the title of each card
+*/
+.notion-property.notion-property__title span {
+  text-align: center;
+  color: #007acc;
+  
+  font-size: 20px;
+}
