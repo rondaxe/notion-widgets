@@ -1,5 +1,17 @@
 
 /*
+ style for the home page welcome message: 'Welcome to the SimpliDATA Help Center'
+*/
+#block-2b1058a11c574a7cafbf784560c0b4de  span  {
+  color: #007acc;
+  text-align: center;
+  text-shadow: 2px 2px 8px #5C5C5C;
+  font-size: 28px;
+}
+
+
+
+/*
  style for home page promo: 'The world's only Pharma Technology management software built...'
 */
 #block-916154f172dd4c7a92c3d2bb69c9c549 {
