@@ -1,5 +1,14 @@
 
 /*
+ style for home page promo: 'The world's only Pharma Technology management software built...'
+*/
+#block-916154f172dd4c7a92c3d2bb69c9c549 {
+  color: #595959;
+  text-align: center;
+  text-shadow: 2px 2px 8px #5C5C5C;
+  font-size: 14px;
+}
+/*
 style the title of each card
 */
 .notion-property.notion-property__title span {
