@@ -1,3 +1,13 @@
+
+/*
+ style for New to Simpli page's 'in this chapter' blurb.
+*/
+#block-a54f4415bb184ef08c8e040ef7aa438a {
+  color: #767676;
+  font-size: 18px;	
+}
+
+
 .notion-toggle.bg-brown {
   display: none !important;
 }
