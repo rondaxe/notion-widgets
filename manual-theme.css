@@ -1,10 +1,17 @@
 
+
+
 /*
- style for New to Simpli page's 'in this chapter' blurb.
+ style for New to Simpli page's 'in this chapter' and it's blurb.
 */
+#block-fb2008e93b1d467aa3a5162911af9a2e {
+  font-size: 12px;
+  font-weight: 300;	
+}
 #block-a54f4415bb184ef08c8e040ef7aa438a {
   color: #767676;
-  font-size: 18px;	
+  font-size: 18px;
+  font-weight: 900;
 }
 
 
