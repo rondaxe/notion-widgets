@@ -1,4 +1,17 @@
 
+
+/*
+  Main page gallery sizing and such to try and 'hide' the Notion '+add' card 
+*/
+#block-a8a0df0ddeed4b9fbd6056de6fb90e0a {
+    padding: 44px;
+    border-left-width: 33px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+
 /*
  style for the home page welcome message: 'Welcome to the SimpliDATA Help Center'
 */
